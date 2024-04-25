@@ -3,53 +3,94 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import styles from "./styles.module.css";
 
-const FeatureList = [
+const TechnoList = [
   {
-    title: "Discover MultiversX",
-    content:
-      "Meet the blockchain that can offer true internet-scale performance.",
-    docName: "welcome/welcome-to-multiversx",
+    title: "MultiversX Overview",
+    content: "Meet the blockchain that offers true internet-scale performance.",
+    docName: "why-build-on-multiversx/quick-overview",
     icon: "💡",
   },
   {
-    title: "Start Building",
-    content: "Build your decentralized application in minutes.",
-    docName: "developers/overview",
+    title: "Secure Proof of Stake",
+    content: "Explore the efficiency and security benefits of SPoS over traditional consensus models.",
+    docName: "technology-deep-dive/secure-proof-of-stake",
+    icon: "🔒",
+  },
+  {
+    title: "SpaceVM",
+    content: "Dive into the capabilities and roles of the Space Virtual Machine in smart contract execution.",
+    docName: "technology-deep-dive/space-vm",
+    icon: "🌌",
+  },
+  {
+    title: "Adaptive State Sharding",
+    content: "Understand how MultiversX achieves high scalability through state sharding.",
+    docName: "technology-deep-dive/adaptive-state-sharding",
+    icon: "🧩",
+  },
+  {
+    title: "ESDT Token Standard",
+    content: "Learn about MultiversX's token standards, including features and advantages of ESDT.",
+    docName: "technology-deep-dive/esdt-standard",
+    icon: "🪙",
+  },
+  {
+    title: "Sovereign Chains",
+    content: "Explore how to build and manage custom blockchain solutions within the MultiversX ecosystem.",
+    docName: "technology-deep-dive/sovereign-chains",
+    icon: "🌐",
+  }
+];
+
+const FeatureList = [
+  {
+    title: "Tools Overview",
+    content: "Discover the comprehensive suite of development tools available for MultiversX.",
+    docName: "builder-journeys/tools-and-sdk-overview",
     icon: "🛠️",
   },
   {
+    title: "Build a DApp",
+    content: "Learn how to build your decentralized application step by step on MultiversX.",
+    docName: "builder-journeys/build-a-dapp",
+    icon: "🌍",
+  },
+  {
+    title: "Build a Smart Contract",
+    content: "Follow detailed guides to develop and deploy smart contracts.",
+    docName: "builder-journeys/build-a-smart-contract",
+    icon: "📜",
+  },
+  {
     title: "Run a Validator Node",
-    content: "Validate transactions, secure the network, and earn rewards.",
-    docName: "validators/overview",
+    content: "Validate transactions, secure the network, and earn rewards as a validator.",
+    docName: "validator-journeys/setup-and-operation",
     icon: "🖥",
   },
   {
+    title: "Become a Staking Provider",
+    content: "Become a key part of the network by providing staking services.",
+    docName: "validator-journeys/become-a-staking-provider",
+    icon: "🔗",
+  },
+  {
     title: "Integrate a Platform",
-    content:
-      "Follow our guide to integrate exchanges, wallets, and other platforms.",
+    content: "Integrate exchanges, wallets, and other platforms with our detailed guides.",
     docName: "integrators/overview",
     icon: "🏛",
   },
   {
     title: "Manage a Wallet",
-    content: "Create a wallet to send, receive and store MultiversX tokens.",
+    content: "Learn how to create, manage, and use a MultiversX wallet for your tokens.",
     docName: "wallet/overview",
     icon: "📱",
   },
   {
     title: "Create a Token",
-    content:
-      "Issue your own ESDT token, MultiversX's improved equivalent of ERC-20.",
+    content: "Issue your own tokens on MultiversX with our ESDT token standard.",
     docName: "tokens/overview",
     icon: "🔷",
-  },
-  {
-    title: "Learn How MultiversX Works",
-    content:
-      "Explore Adaptive state sharding, Secure Proof of Stake, and the MultiversX WASM VM.",
-    docName: "technology/architecture-overview",
-    icon: "🔬",
-  },
+  }
 ];
 
 function Feature({ docName, title, content, icon }) {
@@ -70,7 +111,7 @@ function HomepageHeader() {
   return (
     <header className={clsx(styles.heroBanner)}>
       <div className="container">
-        <h1 className={clsx("hero__title")}>Welcome to the MultiversX docs!</h1>
+        <h1 className={clsx("hero__title")}>Welcome to the MultiversX Docs!</h1>
         <p className={clsx("hero__subtitle")}>Choose your path you must.</p>
       </div>
     </header>
@@ -83,6 +124,24 @@ export default function HomepageFeatures() {
       <HomepageHeader />
       <section className={styles.features}>
         <div className={clsx("container", styles.container)}>
+        <p className={clsx("hero__subtitle", "text--center", "justify-content--center", "font-weight--bold", "text-decoration--underline")}>
+
+           Our Technologies
+          </p>
+          <div className={clsx("row", styles.row)}>
+            {TechnoList.map((props, idx) => (
+              <Feature key={idx} {...props} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.features}>
+        <div className={clsx("container", styles.container)}>
+        <p className={clsx("hero__subtitle", "text--center", "justify-content--center", "font-weight--bold", "text-decoration--underline")}>
+
+Builders Paths
+</p>
           <div className={clsx("row", styles.row)}>
             {FeatureList.map((props, idx) => (
               <Feature key={idx} {...props} />
