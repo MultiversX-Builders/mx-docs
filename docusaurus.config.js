@@ -94,17 +94,17 @@ const config = {
         },
         items: [
           {
-            href: "/developers/overview",
+            href: "/tutorials",
             label: "Tutorials",
             position: "left",
           },
           {
-            href: "/developers/overview",
+            href: "/builder",
             label: "Build",
             position: "left",
           },
           {
-            href: "/validators/overview",
+            href: "/validate",
             label: "Validate",
             position: "left",
           },
