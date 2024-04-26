@@ -14,55 +14,60 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   docs: {
-    "Why Build on MultiversX": [
-      "why-build-on-multiversx/quick-overview",
-      "why-build-on-multiversx/being-a-builder",
-      "why-build-on-multiversx/core-concepts",
+    "Core Concepts": [
+      "Core-Concepts/Introduction-to-MultiversX",
+      "Core-Concepts/Architecture",
+      "Core-Concepts/Ecosystem",
     ],
     "Technology Deep Dive": [
-      "technology-deep-dive/detailed-architecture",
-      "technology-deep-dive/advanced-concepts",
-      "technology-deep-dive/sovereign-chains",
+      "Technology-Deep-Dive/Detailed-Architecture",
+      "Technology-Deep-Dive/Advanced-Concepts",
+      "Technology-Deep-Dive/Adaptive-State-Sharding",
+      "Technology-Deep-Dive/ESDT-Token-Standard",
+      "Technology-Deep-Dive/Sovereign-Chains",
     ],
-    "Builder Journeys": [
-      {
-        type: "category",
-        label: "Path for DApp Creators",
-        items: [
-          "builder-journeys/path-for-dapp-creators/conceptualization-and-design",
-          "builder-journeys/path-for-dapp-creators/development-setup",
-          "builder-journeys/path-for-dapp-creators/building-the-dapp",
-          "builder-journeys/path-for-dapp-creators/testing-and-deployment",
-          "builder-journeys/path-for-dapp-creators/optimization-and-scaling",
-        ],
-      },
-      {
-        type: "category",
-        label: "Path for Smart Contract Developers",
-        items: [
-          "builder-journeys/path-for-smart-contract-developers/learning-rust-and-basics",
-          "builder-journeys/path-for-smart-contract-developers/advanced-techniques",
-          "builder-journeys/path-for-smart-contract-developers/security-practices",
-          "builder-journeys/path-for-smart-contract-developers/deployment-and-management",
-          "builder-journeys/path-for-smart-contract-developers/building-defi-applications",
-          "builder-journeys/path-for-smart-contract-developers/interoperability-and-cross-chain",
-        ],
-      },
+    "Why Build on MultiversX": [
+      "Why-Build-on-MultiversX/Advantages",
+      "Why-Build-on-MultiversX/Being-a-Builder",
+      "Why-Build-on-MultiversX/Technical-Fundamentals",
     ],
-    "Validator Journeys": [
-      "validator-journeys/setup-and-operation",
-      "validator-journeys/economics-and-incentives",
-      "validator-journeys/security-and-compliance",
+    "Builder Journeys": {
+      "Dapp Builders": [
+        "Builder-Journeys/DApp-Creators/Conceptualization-and-Design",
+        "Builder-Journeys/DApp-Creators/Development-Setup",
+        "Builder-Journeys/DApp-Creators/Building-the-DApp",
+        "Builder-Journeys/DApp-Creators/Testing-and-Deployment",
+        "Builder-Journeys/DApp-Creators/Optimization-and-Scaling",
+      ],
+
+      "Smart Contract Developers": [
+        "Builder-Journeys/Smart-Contract-Developers/Introduction-and-Basics",
+        "Builder-Journeys/Smart-Contract-Developers/Advanced-Techniques",
+        "Builder-Journeys/Smart-Contract-Developers/Security-Practices",
+        "Builder-Journeys/Smart-Contract-Developers/Deployment-and-Management",
+        "Builder-Journeys/Smart-Contract-Developers/DeFi-Applications",
+        "Builder-Journeys/Smart-Contract-Developers/Interoperability-and-Cross-Chain",
+      ],
+    },
+    Validators: [
+      "Validators/Validation on MultiversX/Setup-and-Operation",
+      "Validators/Economics-and-Incentives",
+      "Validators/Security-and-Compliance",
     ],
-    "Builders of Sovereign Chains": [
-      "builders-of-sovereign-chains/chain-architecture-design",
-      "builders-of-sovereign-chains/customization-and-configuration",
-      "builders-of-sovereign-chains/integration-with-main-network",
-      "builders-of-sovereign-chains/security-and-compliance",
-      "builders-of-sovereign-chains/community-and-governance",
-      "builders-of-sovereign-chains/economic-model-and-incentives",
-      "builders-of-sovereign-chains/developing-and-deploying-smart-contracts",
-      "builders-of-sovereign-chains/performance-optimization-and-scaling",
+    "Sovereign Chains": [
+      "Sovereign-Chains/Chain-Architecture-Design",
+      "Sovereign-Chains/Customization-and-Configuration",
+      "Sovereign-Chains/Main-Network-Integration",
+      "Sovereign-Chains/Security-Compliance-and-Governance",
+      "Sovereign-Chains/Economic-Model-and-Incentives",
+      "Sovereign-Chains/Smart-Contract-Development-and-Deployment",
+      "Sovereign-Chains/Performance-Optimization-and-Scaling",
+    ],
+    "Tools and SDKs": [
+      "Tools-and-SDKs/SDK",
+      "Tools-and-SDKs/CLI",
+      "Tools-and-SDKs/Core-Team-Tools/Overview",
+      "Tools-and-SDKs/Ecosystem-Resources",
     ],
   },
 };
