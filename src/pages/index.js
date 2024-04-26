@@ -9,21 +9,21 @@ export const TechnoList = [
   {
     title: "Overview",
     content: "Meet the blockchain that offers true internet-scale performance.",
-    docName: "why-build-on-multiversx/quick-overview",
+    docName: "Core-Concepts/Introduction-to-MultiversX",
     icon: "💡",
   },
   {
     title: "Secure Proof of Stake",
     content:
       "Explore the efficiency and security benefits of SPoS over traditional consensus models.",
-    docName: "technology-deep-dive/secure-proof-of-stake",
+    docName: "Core-Concepts/Introduction-to-MultiversX",
     icon: "🔒",
   },
   {
     title: "SpaceVM",
     content:
       "Dive into the capabilities and roles of the Space Virtual Machine in smart contract execution.",
-    docName: "technology-deep-dive/space-vm",
+    docName: "Core-Concepts/Introduction-to-MultiversX",
     icon: "🌌",
   },
   {
@@ -37,14 +37,14 @@ export const TechnoList = [
     title: "ESDT Token Standard",
     content:
       "Learn about MultiversX's token standards, including features and advantages of ESDT.",
-    docName: "technology-deep-dive/esdt-standard",
+    docName: "Core-Concepts/Introduction-to-MultiversX",
     icon: "🪙",
   },
   {
     title: "Sovereign Chains",
     content:
       "Explore how to build and manage custom blockchain solutions within the MultiversX ecosystem.",
-    docName: "technology-deep-dive/sovereign-chains",
+    docName: "Core-Concepts/Introduction-to-MultiversX",
     icon: "🌐",
   },
 ];

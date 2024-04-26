@@ -17,34 +17,34 @@ export const BuilderList = [
     title: "Build a DApp",
     content:
       "Learn how to build your decentralized application step by step on MultiversX.",
-    docName: "builder-journeys/build-a-dapp",
+    docName: "/Builder-Journeys/DApp-Creators/Conceptualization-and-Design",
     icon: "🌍",
   },
   {
     title: "Build a Smart Contract",
     content: "Follow detailed guides to develop and deploy smart contracts.",
-    docName: "builder-journeys/build-a-smart-contract",
+    docName: "/Builder-Journeys/DApp-Creators/Conceptualization-and-Design",
     icon: "📜",
   },
   {
     title: "Integrate a Platform",
     content:
       "Integrate exchanges, wallets, and other platforms with our detailed guides.",
-    docName: "integrators/overview",
+    docName: "/Builder-Journeys/DApp-Creators/Conceptualization-and-Design",
     icon: "🏛",
   },
   {
     title: "Manage a Wallet",
     content:
       "Learn how to create, manage, and use a MultiversX wallet for your tokens.",
-    docName: "wallet/overview",
+    docName: "/Builder-Journeys/DApp-Creators/Conceptualization-and-Design",
     icon: "📱",
   },
   {
     title: "Create a Token",
     content:
       "Issue your own tokens on MultiversX with our ESDT token standard.",
-    docName: "tokens/overview",
+    docName: "/Builder-Journeys/DApp-Creators/Conceptualization-and-Design",
     icon: "🔷",
   },
 ];

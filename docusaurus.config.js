@@ -94,11 +94,6 @@ const config = {
         },
         items: [
           {
-            href: "/tutorials",
-            label: "Tutorials",
-            position: "left",
-          },
-          {
             href: "/builder",
             label: "Build",
             position: "left",
@@ -111,6 +106,11 @@ const config = {
           {
             href: "/integrators/overview",
             label: "Integrate",
+            position: "left",
+          },
+          {
+            href: "/tutorials",
+            label: "Tutorials",
             position: "left",
           },
           {
