@@ -2,7 +2,7 @@ import Layout from "@theme/Layout";
 import React from "react";
 import clsx from "clsx";
 import styles from "../css/styles.module.css";
-import PageHeader from "../components/PageHeader";
+import PageHeader from "../layout/Header";
 import QuickLink from "../components/QuickLink";
 
 export const TechnoList = [

@@ -1,9 +1,8 @@
 import React from "react";
 import Layout from "@theme/Layout";
-import clsx from "clsx";
-import styles from "../css/styles.module.css";
 import QuickLink from "../components/QuickLink";
-import PageHeader from "../components/PageHeader";
+import PageHeader from "../layout/Header";
+import PageSection from "../layout/PageSection";
 
 export const BuilderList = [
   {
@@ -56,26 +55,12 @@ function Builder() {
         title="Builders Journeys"
         subtitle="Choose your path you must."
       />
-      <section className={styles.features}>
-        <div className={clsx("container", styles.container)}>
-          <h1
-            className={clsx(
-              "hero__subtitle",
-              "text--center",
-              "justify-content--center",
-              "font-weight--bold",
-              "text-decoration--underline"
-            )}
-          >
-            Builder Paths
-          </h1>
-          <div className={clsx("row", styles.row)}>
-            {BuilderList.map((props, idx) => (
+        <PageSection title="Builder Paths">
+        {BuilderList.map((props, idx) => (
               <QuickLink key={idx} {...props} />
             ))}
-          </div>
-        </div>
-      </section>
+      </PageSection>
+      
     </Layout>
   );
 }

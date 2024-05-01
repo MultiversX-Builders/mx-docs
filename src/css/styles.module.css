@@ -71,3 +71,19 @@
     padding: 2rem;
   }
 }
+
+.tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-justify: center;
+  padding: 5px 10px;
+  margin: 0 10px; /* Gap between tags */
+  border: 2px solid #ccc; /* Border color, adjust as needed */
+  border-radius: 0.65rem; /* Reuse from .card */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); /* Subtle shadow, adjust opacity as needed */
+  font-weight: bold;
+  font-size: 1rem;
+  color: white; /* Assuming you want a light text color, adjust as needed */
+  background-color: #007bff; /* Default color, should be overridden inline */
+}
